@@ -100,7 +100,7 @@ def build_payloads(records: list[dict[str, Any]], provider: GeminiProvider) -> l
             "verification_notes": record["unverified"],
             "place_name": record["place_name"],
             "region": record.get("region"),
-            "location": {"type": "Point", "coordinates": [record["lng"], record["lat"]]},
+        "location": f"SRID=4326;POINT({record['lng']} {record['lat']})",
             "status": "approved",
             "pipeline_stage": "complete",
             "error": None,

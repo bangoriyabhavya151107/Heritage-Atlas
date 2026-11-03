@@ -13,7 +13,7 @@ def create_uploaded_record(content: bytes, filename: str, content_type: str, pla
     return record_db.create_record({
         "id": str(record_id),
         "place_name": place_name,
-        "location": {"type": "Point", "coordinates": [lng, lat]},
+          "location": f"SRID=4326;POINT({lng} {lat})",
         "image_path": object_path,
         "status": "uploaded",
         "pipeline_stage": "uploaded",
