@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Heritage Atlas</title>
+  <rect x="8" y="8" width="112" height="112" rx="30" fill="#1F2A5A"/>
+  <path d="M33 91h62M43 81V51l21-15 21 15v30M52 81V61h24v20" fill="none" stroke="#F4EBDD" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <circle cx="64" cy="52" r="6" fill="#C65D3B"/>
+</svg>

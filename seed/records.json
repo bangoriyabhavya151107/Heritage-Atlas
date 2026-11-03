@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Adalaj Ni Vav (Adalaj Stepwell)",
+    "monument_type": "stepwell",
+    "period": "15th century",
+    "materials": [],
+    "features": [
+      "five storeys",
+      "three entrances",
+      "octagonal well opening",
+      "ornamental carvings",
+      "Indo-Islamic fusion architecture"
+    ],
+    "language": null,
+    "original_text": null,
+    "english_text": null,
+    "summary": "Gujarat Tourism describes Adalaj Ni Vav as a 15th-century stepwell with five storeys, Indo-Islamic fusion architecture, and ornamental carvings; its exact construction year is not specified in that listing.",
+    "place_name": "Adalaj, Gandhinagar",
+    "region": "Gujarat, India",
+    "lat": 23.1667,
+    "lng": 72.5801,
+    "image_path": "seed-images/adalaj-stepwell.jpg",
+    "source": "https://gujarattourism.com/central-zone/gandhinagar/adalaj-ni-vav.html",
+    "unverified": [
+      "Exact construction year is not specified by the cited Gujarat Tourism listing; other online accounts give differing years.",
+      "Builder, patronage and popular historical narratives are not established by the cited source.",
+      "The source does not establish the material composition of the complete structure; materials are left blank.",
+      "Coordinates are approximate map-placement coordinates, not survey data."
+    ],
+    "seed_key": "adalaj-stepwell",
+    "source_title": "Adalaj Ni Vav Gandhinagar — Gujarat Tourism",
+    "verified_facts": [
+      "Gujarat Tourism describes the site as a 15th-century stepwell in Gandhinagar.",
+      "Its listing identifies five storeys, three entrances, and an octagonal well opening.",
+      "The listing describes Indo-Islamic fusion architecture and ornamental carvings.",
+      "Ami khumbor and Kalp vriksha carvings are described as carved from a single slab of stone."
+    ]
+  },
+  {
+    "title": "Rani-ki-Vav (the Queen's Stepwell)",
+    "monument_type": "stepwell",
+    "period": "11th century CE",
+    "materials": [],
+    "features": [
+      "seven levels of stairs",
+      "sculptural panels",
+      "inverted-temple design",
+      "rectangular tank",
+      "well shaft"
+    ],
+    "language": null,
+    "original_text": null,
+    "english_text": null,
+    "summary": "UNESCO describes Rani-ki-Vav at Patan as an 11th-century stepwell, initially built as a memorial to a king and designed as an inverted temple, with seven stair levels and sculptural panels.",
+    "place_name": "Patan",
+    "region": "Gujarat, India",
+    "lat": 23.85833,
+    "lng": 72.10028,
+    "image_path": "seed-images/rani-ki-vav.jpg",
+    "source": "https://whc.unesco.org/en/list/922/",
+    "unverified": [
+      "The exact construction year and identity of the commemorated king are not established by the cited UNESCO description.",
+      "Construction materials are not specified in the cited source; materials are left blank.",
+      "Coordinates are approximate map-placement values converted from a Government of India listing; their datum and survey precision are not stated."
+    ],
+    "seed_key": "rani-ki-vav",
+    "source_title": "Rani-ki-Vav (the Queen’s Stepwell) at Patan, Gujarat — UNESCO World Heritage Centre",
+    "verified_facts": [
+      "UNESCO locates the stepwell at Patan on the banks of the Saraswati River and dates it to the 11th century.",
+      "UNESCO says it was initially built as a memorial to a king and designed as an inverted temple.",
+      "The site description identifies seven levels of stairs, sculptural panels, a rectangular tank, and a well shaft."
+    ]
+  },
+  {
+    "title": "Sun Temple, Modhera",
+    "monument_type": "temple",
+    "period": "11th century (exact construction year unverified)",
+    "materials": [
+      "bright yellow sandstone"
+    ],
+    "features": [
+      "main shrine (garbhagriha)",
+      "Gudhamandapa hall",
+      "Sabhamandapa assembly hall",
+      "sacred Kunda pool",
+      "carved sculpture decoration"
+    ],
+    "language": null,
+    "original_text": null,
+    "english_text": null,
+    "summary": "The UNESCO Tentative List describes Modhera's east-facing Sun Temple as an 11th-century Maru-Gurjara sandstone complex with a main shrine, assembly hall, sacred pool and extensive sculpture; map coordinates are approximate.",
+    "place_name": "Modhera, Becharaji Taluka",
+    "region": "Mehsana District, Gujarat, India",
+    "lat": 23.5835,
+    "lng": 72.133,
+    "image_path": "seed-images/modhera-sun-temple.jpg",
+    "source": "https://whc.unesco.org/en/tentativelists/6627/",
+    "unverified": [
+      "The exact construction year is not established by the selected UNESCO source; its century attribution is stylistic.",
+      "The WGS84 coordinate is approximate map placement and is not a surveyed coordinate verified by UNESCO.",
+      "No materials beyond the stated bright yellow sandstone are asserted."
+    ],
+    "seed_key": "modhera-sun-temple",
+    "source_title": "Sun Temple, Modhera and its adjoining monuments — UNESCO Tentative List",
+    "verified_facts": [
+      "The UNESCO Tentative List places the temple in Mehsana District, Gujarat, on the left bank of the Pushpavati River in Becharaji Taluka.",
+      "The entry describes an east-facing temple built of bright yellow sandstone in the Maru-Gurjara style.",
+      "The complex includes the main shrine, Gudhamandapa, Sabhamandapa or Rangamandapa, and a sacred Kunda.",
+      "UNESCO characterizes the complex as 11th-century architecture and presents the dating as an inference from style."
+    ]
+  },
+  {
+    "title": "Sidi Saiyyed Mosque",
+    "monument_type": "mosque",
+    "period": "1572-73 CE",
+    "materials": [],
+    "features": [
+      "jali windows",
+      "tree-of-life motif",
+      "central arch without intricate latticework",
+      "continues to function as a place of prayer"
+    ],
+    "language": null,
+    "original_text": null,
+    "english_text": null,
+    "summary": "Gujarat Tourism dates the Sidi Saiyyed Mosque in Ahmedabad to 1572-73 CE and describes its tree-of-life jali windows and continuing use for prayer; the map coordinates are approximate.",
+    "place_name": "Ahmedabad",
+    "region": "Gujarat, India",
+    "lat": 23.02694,
+    "lng": 72.58111,
+    "image_path": "seed-images/sidi-saiyyed-mosque.jpg",
+    "source": "https://gujarattourism.com/central-zone/ahmedabad/siddi-sayed-mosque.html",
+    "unverified": [
+      "The source places the mosque in Ahmedabad but does not state coordinates; the map pin is approximate.",
+      "Construction materials are not specified by the cited source; materials are left blank."
+    ],
+    "seed_key": "sidi-saiyyed-mosque",
+    "source_title": "Siddi Sayed Mosque Ahmedabad — Gujarat Tourism",
+    "verified_facts": [
+      "Gujarat Tourism identifies the mosque in Ahmedabad and dates it to 1572–73 CE.",
+      "The listing describes jali windows with intertwining branches forming a tree-of-life motif.",
+      "It notes that the central arch lacks intricate latticework and that the mosque continues to be used for prayer."
+    ]
+  },
+  {
+    "title": "Lothal",
+    "monument_type": "other",
+    "period": "Harappan culture (c. 2400-1600 BCE per UNESCO Tentative List)",
+    "materials": [
+      "mud-brick platforms (upper town)"
+    ],
+    "features": [
+      "upper and lower town",
+      "basin identified as a tidal dockyard",
+      "streets and drains",
+      "bead-making area in lower town"
+    ],
+    "language": null,
+    "original_text": null,
+    "english_text": null,
+    "summary": "UNESCO's Tentative List describes Lothal as a Harappan port-town with upper and lower town areas and a basin interpreted as a tidal dockyard; the coordinates are approximate map-placement coordinates.",
+    "place_name": "Saragwala, Dholka Taluka",
+    "region": "Ahmedabad District, Gujarat, India",
+    "lat": 22.52139,
+    "lng": 72.24944,
+    "image_path": "seed-images/lothal.jpg",
+    "source": "https://whc.unesco.org/en/tentativelists/5918/",
+    "unverified": [
+      "The listed period is the broad Harappan culture range in the cited UNESCO record, not a precise construction date for the site.",
+      "The exact site boundaries are not represented by the approximate map pin.",
+      "Lothal is on UNESCO's Tentative List; this record does not imply World Heritage inscription."
+    ],
+    "seed_key": "lothal",
+    "source_title": "Archaeological remains of a Harappa Port-Town, Lothal — UNESCO Tentative List",
+    "verified_facts": [
+      "UNESCO locates the remains in Dholka Taluk, Ahmedabad district, Gujarat, along the Bhogava river.",
+      "The tentative-list record gives a Harappan culture evidence range of 2400 BCE to 1600 BCE.",
+      "UNESCO describes upper and lower town areas and a basin interpreted as a tidal dockyard.",
+      "The description notes mud-brick platforms in the upper town, streets, drains, and a bead-making area."
+    ]
+  }
+]

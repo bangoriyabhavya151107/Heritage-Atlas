@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --color-sandstone: #f4ebdd;
+  --color-paper: #fffdf9;
+  --color-ink: #1b1b1f;
+  --color-indigo: #1f2a5a;
+  --color-terracotta: #c65d3b;
+  --color-terracotta-ink: #8f3924;
+  --color-line: #ddd3c3;
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-body: var(--font-inter), Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: var(--color-sandstone);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: var(--color-sandstone);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-terracotta-ink);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--color-indigo);
+  color: #fff;
+}
+
+.leaflet-container {
+  z-index: 0;
+  font-family: var(--font-body);
+}
+
+.leaflet-div-icon.heritage-map-marker {
+  display: grid;
+  place-items: center;
+  width: 28px !important;
+  height: 36px !important;
+  margin-left: -14px !important;
+  margin-top: -34px !important;
+  border: 0;
+  background: transparent;
+}
+
+.heritage-map-marker span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 4px solid #fffdf9;
+  border-radius: 50% 50% 50% 0;
+  background: var(--color-terracotta);
+  box-shadow: 0 2px 8px rgb(27 27 31 / 28%);
+  transform: rotate(-45deg);
+}
+
+@keyframes progress-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(31 42 90 / 22%);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgb(31 42 90 / 0%);
+  }
+}
+
+.animate-current-stage {
+  animation: progress-pulse 1.8s ease-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.atlas-pin-icon,
+.atlas-cluster-icon {
+  border: 0 !important;
+  background: transparent !important;
+}
+
+.atlas-pin {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #fffdf9;
+  border-radius: 50% 50% 50% 0;
+  background: var(--pin-color, #625e58);
+  box-shadow: 0 2px 9px rgb(27 27 31 / 35%);
+  transform: rotate(-45deg);
+  transition: opacity 160ms ease, scale 160ms ease;
+}
+
+.atlas-pin-selected {
+  outline: 3px solid #1f2a5a;
+  outline-offset: 2px;
+  scale: 1.15;
+}
+
+.atlas-cluster {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border: 3px solid #fffdf9;
+  border-radius: 9999px;
+  background: #1f2a5a;
+  box-shadow: 0 2px 9px rgb(27 27 31 / 35%);
+  color: #fffdf9;
+  font-size: 12px;
+  font-weight: 700;
+}
